@@ -68,6 +68,14 @@ And to install all optional extra tools at the same time, install prospector usi
     pip install prospector[with_everything]
 
 
+.. Note::
+
+   As ``frosted`` is deprecated, we recommend to specify each of the tools except ``frosted`` instead of ``with_everything``,
+   unless your project already uses ``frosted``::
+
+       pip install prospector[with_pyroma,with_vulture,with_mypy,with_bandit]
+
+
 For best results, you should install prospector to the same place as your project and its dependencies. That is,
 if you are using virtual environments, install prospector into that virtual environment alongside your code. This
 allows the underlying tools to give better results, as they can infer and use knowledge of libraries that you use.

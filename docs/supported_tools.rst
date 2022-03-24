@@ -141,6 +141,13 @@ To install and use::
 
 `Frosted <https://github.com/timothycrosley/frosted>`_
 ``````````````````````````````````````````````````````
+
+
+.. Note::
+
+   ``frosted`` is deprecated. You should use ``frosted`` only if your project already has dev-dependency to it.
+
+
 Frosted is a fork of pyflakes which was created with the intention of taking over
 from and extending pyflakes as development had slowed. Since Prospector was originally
 created, pyflakes development has started up again and frosted has stagnated, so it has
